@@ -11,7 +11,7 @@ input{
     overflow: hidden;
     margin:40px;
 }
-.about {
+.about,.other{
     margin-top:40px;
     margin-left:40px;
 

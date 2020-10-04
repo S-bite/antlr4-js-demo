@@ -12,7 +12,9 @@
     <div id="app">
         <div class='about'>
             <h2>これは何？</h2>
-            <p> ANTLRの練習のために作ったサイトです。下のボックスにCのソースコードを入力して"Run"ボタンを押すと、そのコード内で実装されている関数をリストアップします。 </p>
+            <p>ANTLRの練習のために作ったサイトです。下のボックスにCのソースコードを入力して"Run"ボタンを押すと、そのコード内で実装されている関数をリストアップします。 </p>
+            <p>マクロが入っているとうまく動かないことがあります（マクロの展開を行わず、単に無視するため）。</p>
+            <p>また、入力されるC言語の規格はC11を想定しており、GCC等の拡張文法には対応していません。</p>
         </div>
 
         <div class='editor'>
@@ -31,12 +33,12 @@
                 </li>
             </ol>
         </div>
-        <div style='clear:both;'>
+        <div style='clear:both;' class='other'>
             <h2>その他</h2>
             <p>パーサは<a href="https://www.antlr.org/index.html">ANTLR</a>を使い作成しました。</p>
             <p>ANTLRに与えるC言語の文法ファイルは、<a
                     href='https://github.com/antlr/grammars-v4/blob/master/c/C.g4'>https://github.com/antlr/grammars-v4/blob/master/c/C.g4</a>を一部改変の上使用しています。
-                改変後のファイルは<a href="./grammars/C.g4">こちら</a>にあります。
+                改変後のファイルは<a href="https://github.com/S-bite/antlr4-js-demo/blob/main/grammars/C.g4">こちら</a>にあります。
             </p>
             <p>このサイトのリポジトリは<a href="https://github.com/S-bite/antlr4-js-demo">こちら</a>です。何かありましたら<a
                     href="https://twitter.com/nbit0125">えすびて</a>までお願いします。</p>
