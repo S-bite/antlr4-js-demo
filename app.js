@@ -23,7 +23,6 @@ int main()
     printf("Hello World!\\n");
     return 0;
 }`
-  editor.save();
 };
 
 window.parse = function parse() {
